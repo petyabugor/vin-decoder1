@@ -1,0 +1,117 @@
+.wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.main {
+    padding: 20px 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #585858;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #8d8d8c;
+    text-align: center;
+}
+
+
+
+
+.list {
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #ebe9e6;
+    height: 220px;
+    -webkit-box-shadow: -2px 0px 1px 1px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.28);
+
+    @media(max-width: 600px) {
+        width: 90%;
+    }
+}
+
+.listItem {
+    padding: 5px;
+    color: #727271;
+}
+
+.empty {
+    color: #7a7a7a;
+    margin-top: 60px;
+}
+
+.characteristic {
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgb(211, 208, 208);
+}
+
+.characteristicText {
+    color: #8d8d8c;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.link {
+    background-color: #ebe9e6;
+    padding: 13px 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.1s ease-in-out;
+    -webkit-box-shadow: -2px 0px 1px 1px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.28);
+
+    @media(max-width: 560px) {
+        padding: 8px 10px;
+    }
+
+    &:hover {
+        background-color: darken(#dbdada, 2%);
+    }
+}
+
+.characteristicLink {
+    padding: 3px 15px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+    color: #5e5e5d;
+    font-weight: 600;
+    margin-bottom: 5px;
+    &:hover {
+        background-color: darken(#e9e7e7, 2%);
+    }
+}
+
+.vin {
+    padding: 3px 15px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+    color: #7c7c7b;
+
+    &:hover {
+        background-color: darken(#dbdada, 2%);
+    }
+}
