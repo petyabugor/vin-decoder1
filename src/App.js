@@ -29,7 +29,7 @@ function App() {
 
          <Routes>
             <Route
-               path="/vin-decoder"
+               path="/"
                element={
                   <Home
                      products={products}
