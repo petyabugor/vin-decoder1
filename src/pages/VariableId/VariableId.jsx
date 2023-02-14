@@ -39,7 +39,7 @@ function VariableId({ isLoaded }) {
                ))
          )}
          <Link
-            to="/"
+            to="/vin-decoder"
             className={styles.buttonWrapper}
          >
             <button

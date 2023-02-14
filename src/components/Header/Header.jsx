@@ -9,7 +9,7 @@ function Header() {
       <header className={styles.header}>
          <div className={styles.header_content}>
             <Link
-               to="/"
+               to="/vin-decoder"
                className={styles.icon}
             >
                <IoCarSportOutline className={styles.icon} />
@@ -17,7 +17,7 @@ function Header() {
 
             <div className={styles.menu}>
                <Link
-                  to="/"
+                  to="/vin-decoder"
                   className={styles.link}
                >
                   Головна
